@@ -32,7 +32,7 @@ public class Wilder{
     public String whoAmI(){
         String reponse="";
         reponse = "Je m'appelle " + this.getFirstName();
-        if(this.aware){
+        if(this.isAware()){
             reponse = reponse + " et je suis aware";
         } else {
             reponse = reponse + " et je ne suis pas aware";
